@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Proyecto de Abono</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #3e7f3e;
+            color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        nav li {
+            position: relative;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: rgb(219, 219, 176);
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            background-color: #3e7f3e;
+            min-width: 160px;
+            z-index: 1;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav li:hover .dropdown {
+            display: block;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            margin: 0;
+        }
+
+        footer {
+            background-color: #3e7f3e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        } 
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="file:///F:/privacidad/INICIO.html">Inicio</a></li>
+                <li><a href="file:///F:/privacidad/ACERCA%20DE.html">Acerca de</a></li>
+                <li>
+                    <a href="#" aria-label="Ir a Servicios">Servicios</a>
+                    <div class="dropdown">
+                        <a href="file:///F:/privacidad/SERVICIO%201.html">Servicio 1</a>
+                        <a href="file:///F:/privacidad/SERVICIO%202.html">Servicio 2</a>
+                        <a href="file:///F:/privacidad/SERVICIO%203.html">Servicio 3</a>
+                        <a href="file:///F:/privacidad/SERVICIO%204.html">Servicio 4</a>
+                    </div>
+                </li>
+                <li><a href="file:///F:/privacidad/PORTAFOLIO.html">Portafolio</a></li>
+                <li><a href="file:///F:/privacidad/CONTACTOS.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenido al Proyecto de Abono</h2>
+            <p>En nuestro proyecto, nos dedicamos a ofrecer abono natural de la más alta calidad, diseñado para mejorar la salud del suelo y potenciar el crecimiento de tus cultivos.</p>
+            <p>Nuestra experiencia en el campo nos permite garantizar que nuestros productos son efectivos y respetuosos con el medio ambiente.</p>
+            <p>Explora nuestro sitio para conocer más sobre nuestros servicios y cómo podemos ayudarte a alcanzar tus objetivos agrícolas.</p>
+        </section>
+
+        <section>
+            <h2>¿Por qué elegir nuestros abonos?</h2>
+            <p>Nuestros abonos son elaborados a partir de materiales orgánicos, lo que significa que son seguros para el medio ambiente y para tus cultivos. Además:</p>
+            <ul>
+                <li>Mejoran la estructura del suelo y aumentan su capacidad de retención de agua.</li>
+                <li>Fomentan la biodiversidad del suelo, promoviendo un ecosistema saludable.</li>
+                <li>Son ideales para todo tipo de cultivos, desde hortalizas hasta plantas ornamentales.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Únete a nuestra comunidad</h2>
+            <p>Al elegir nuestros productos, te unes a una comunidad de agricultores comprometidos con prácticas sostenibles y responsables. Juntos, podemos hacer una diferencia en la agricultura.</p>
+            <p>Suscríbete a nuestro boletín para recibir noticias, consejos de cultivo y ofertas especiales:</p>
+            <form>
+                <input type="email" placeholder="Tu email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Proyecto de Abono. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
